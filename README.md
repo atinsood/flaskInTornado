@@ -3,9 +3,9 @@ This is a very basic skeletal project which shows how to use
 - Tornado and Flask together for the back end
 - Angular and bootstrap managed by bower for the front end
 
-```
+---
 Things to note
-```
+---
 
 - flaskProjectCode.py script basically instantiates a flask application and
 defines all the routes. Even though a main method is defnied in this script 
@@ -19,7 +19,7 @@ actual code.
 
 To start the project:
 
-cd flaskProjectCode/static/components
+cd flaskProjectCode/static/
 bower install
 
 cd flaskProjectCode
