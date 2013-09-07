@@ -1,7 +1,7 @@
 from tornado.wsgi import WSGIContainer
 from tornado.ioloop import IOLoop
 from tornado.web import FallbackHandler, RequestHandler, Application
-from flaskProjectCode import app
+from routes import app
 
 
 class MainHandler(RequestHandler):
